@@ -1,0 +1,12 @@
+{
+  "project": "AI-Coding-Agent-set",
+  "profile": "node",
+  "skills": [
+    "cli-designer",
+    "code-review",
+    "test-writer",
+    "repo-doctor"
+  ],
+  "generatedBy": "ai-coding-agent-set",
+  "schemaVersion": 1
+}

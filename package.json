@@ -1,0 +1,46 @@
+{
+  "name": "ai-coding-agent-set",
+  "version": "0.1.0",
+  "description": "Generate high-quality instructions, skills, and guardrails for AI coding agents.",
+  "type": "module",
+  "bin": {
+    "agent-set": "./bin/agent-set.js",
+    "ai-agent-set": "./bin/agent-set.js"
+  },
+  "scripts": {
+    "start": "node ./bin/agent-set.js",
+    "test": "node --test",
+    "doctor": "node ./bin/agent-set.js doctor --path .",
+    "demo": "node ./bin/agent-set.js init --profile react --output ./demo-output --force",
+    "prepublishOnly": "npm test"
+  },
+  "keywords": [
+    "ai",
+    "agent",
+    "codex",
+    "claude",
+    "cursor",
+    "copilot",
+    "developer-tools",
+    "prompt-engineering"
+  ],
+  "author": "404-creator",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/404-creator/AI-Coding-Agent-set.git"
+  },
+  "bugs": {
+    "url": "https://github.com/404-creator/AI-Coding-Agent-set/issues"
+  },
+  "homepage": "https://github.com/404-creator/AI-Coding-Agent-set#readme",
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "bin",
+    "src",
+    "README.md",
+    "LICENSE"
+  ]
+}
